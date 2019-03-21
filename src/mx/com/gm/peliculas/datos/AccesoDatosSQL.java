@@ -121,7 +121,7 @@ public class AccesoDatosSQL implements AccesoDatos {
         }
         
         if (peliculas.size() > 0) {
-            return peliculas.get(0).toString();
+            return peliculas.get(0).getNombre();
         }
         
         return "";
